@@ -1,0 +1,21 @@
+{
+  "name": "passman",
+  "version": "1.0.0",
+  "description": "A password manager which stores password in a file in google drive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "manager"
+  ],
+  "author": "sabbir044@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "googleapis": "^118.0.0"
+  }
+}

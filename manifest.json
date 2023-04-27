@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "PassMan",
+    "version": "1.0",
+    "description": "A password manager which stores password in a file in google drive",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "src/popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "host_permissions": ["<all_urls>"]
+  }
+  
